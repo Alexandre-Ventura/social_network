@@ -8,6 +8,11 @@ authors = ["Alexandre Ventura <alexandreventura630@gmail.com>"]
 python = "^3.10"
 
 [tool.poetry.dev-dependencies]
+taskipy = "^1.14.0"
+
+[tool.taskipy.tasks]
+dev = "fastapi dev src/api/aplication.py"
+prod = "uvicorn src.api.aplication:app --host 0.0.0.0 --port 8000 --reload"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
