@@ -1,7 +1,11 @@
+aiosqlite==0.20.0
 annotated-types==0.7.0
 anyio==4.6.2.post1
+async-timeout==5.0.0
+asyncpg==0.30.0
 certifi==2024.8.30
 click==8.1.7
+colorama @ file:///home/alexandre/.cache/pypoetry/artifacts/09/53/66/53d2634a58756d7e4ca4e4e3c799be6a98e347f256b417fdf9b3bd64ad/colorama-0.4.6-py2.py3-none-any.whl#sha256=4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6
 dnspython==2.7.0
 email_validator==2.2.0
 exceptiongroup==1.2.2
@@ -12,20 +16,27 @@ httpcore==1.0.6
 httptools==0.6.4
 httpx==0.27.2
 idna==3.10
+iso8601==2.1.0
 Jinja2==3.1.4
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 mdurl==0.1.2
+psutil @ file:///home/alexandre/.cache/pypoetry/artifacts/b8/3f/73/3ca5999356060e8d17ab1a19a6676d95ac307d84907bf3c4cfd20cafdf/psutil-5.9.8-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=d06016f7f8625a1825ba3732081d77c94589dca78b7a3fc072194851e88461a4
 pydantic==2.9.2
 pydantic_core==2.23.4
 Pygments==2.18.0
+pypika-tortoise==0.2.1
 python-dotenv==1.0.1
 python-multipart==0.0.17
+pytz==2024.2
 PyYAML==6.0.2
 rich==13.9.4
 shellingham==1.5.4
 sniffio==1.3.1
 starlette==0.41.2
+taskipy @ file:///home/alexandre/.cache/pypoetry/artifacts/3f/99/c4/00d1d449eaa7c686a685c7982e7e758de1d94fa2fa2224e088fff50cea/taskipy-1.14.0-py3-none-any.whl#sha256=29040d9a8038170602feb71792bdef5203720ed30f595304aee843625892452b
+tomli @ file:///home/alexandre/.cache/pypoetry/artifacts/6a/df/12/f39970235c51672d83515be8f90a0b8bbb376619f9c9c101df033e3950/tomli-2.0.2-py3-none-any.whl#sha256=2ebe24485c53d303f690b0ec092806a085f07af5a5aa1464f3931eec36caaa38
+tortoise-orm==0.21.7
 typer==0.12.5
 typing_extensions==4.12.2
 uvicorn==0.32.0
