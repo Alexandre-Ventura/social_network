@@ -1,7 +1,12 @@
 from fastapi import FastAPI
 from tortoise.contrib.fastapi import register_tortoise
+from src.api.routes import users
 
-# Configurações do banco de dados
+# Inicializando Rotas
+def configure_routes(app: FastAPI):
+    app.include_router(users.router)
+
+# Inicializando banco de dados
 def configure_db(app: FastAPI):
     register_tortoise(
         app = app,
