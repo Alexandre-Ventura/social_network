@@ -18,5 +18,7 @@ def configure_db(app: FastAPI):
                     'default_connection': 'default',
                 }
             }
-        }
+        },
+        generate_schemas=True,
+        add_exception_handlers=True
     )
